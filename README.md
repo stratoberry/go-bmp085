@@ -6,7 +6,7 @@
 ## Installation
 
 <pre>
-$ go get github.com/josip/go-bmp085
+$ go get github.com/stratoberry/go-bmp085
 </pre>
 
 [i2c library by gmcbay](http://bitbucket.org/gmcbay/i2c) is the only dependency.
@@ -19,4 +19,4 @@ Library is similar to the one by Adafruit but with a few minor changes to match 
 temperate, pressure, altitude, _ = dev.GetData()
 </code></pre>
 
-For a full example take a look at the examples/main.go file in the repository.
+For a full example take a look at the [examples/main.go](https://github.com/stratoberry/go-bmp085/blob/master/examples/main.go) file in the repository.
