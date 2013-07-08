@@ -2,7 +2,7 @@ package main
 
 import (
   "fmt"
-  "github.com/josip/go-bmp085"
+  "github.com/stratoberry/go-bmp085"
 )
 
 func main() {
