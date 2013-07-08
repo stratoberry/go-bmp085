@@ -8,6 +8,7 @@ import (
 func main() {
   var dev *bmp085.Device
   var err error
+  // 0 for 256MB raspberries, 1 for 512MB ones
   if dev, err = bmp085.Init(0x77, 0, bmp085.MODE_STANDARD); err != nil {
     panic(fmt.Sprintf("Failed to init device", err))
   }
